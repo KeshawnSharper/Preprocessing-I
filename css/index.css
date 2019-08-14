@@ -1,1 +1,131 @@
-/* Compile your LESS file! */
+body {
+  /* navigation */
+  /* name section */
+  /* Skills section */
+  /* projects section */
+  /* footer section */
+}
+body nav {
+  display: flex;
+  margin-left: 60%;
+}
+@media (max-width: 500px) {
+  body nav {
+    width: 100%;
+    display: block;
+    margin-left: 0%;
+  }
+}
+body nav ul {
+  display: inline-block;
+}
+body nav ul li {
+  display: inline-flex;
+  margin-left: 1rem;
+}
+body .name {
+  padding: 3rem;
+  background: lightgray;
+}
+body .name img {
+  margin-left: 25rem;
+}
+@media (max-width: 500px) {
+  body .name img {
+    width: 100%;
+    display: block;
+    margin-left: 0%;
+  }
+}
+body .name .name-title {
+  margin-left: 25rem;
+}
+@media (max-width: 500px) {
+  body .name .name-title {
+    width: 100%;
+    display: block;
+    margin-left: 0%;
+  }
+}
+body .skills {
+  margin-left: 2rem;
+}
+body .skills .flex-container:first-child {
+  width: 50%;
+  font-size: 30px;
+}
+@media (max-width: 500px) {
+  body .skills .flex-container:first-child {
+    width: 100%;
+    display: block;
+    margin-left: 0%;
+  }
+}
+body .skills .flex-container {
+  display: inline-block;
+  width: 45%;
+}
+@media (max-width: 500px) {
+  body .skills .flex-container {
+    width: 100%;
+    display: block;
+    margin-left: 0%;
+  }
+}
+body .skills .flex-container h2 {
+  margin-left: rem;
+}
+body .skills .flex-container li {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 15px;
+  text-align: center;
+  list-style: none;
+}
+body .projects {
+  margin-left: 0rem;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+body .projects ul {
+  padding: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin-bottom: -1rem;
+}
+@media (max-width: 500px) {
+  body .projects ul {
+    display: none;
+  }
+}
+body .projects #scoreboard {
+  margin-left: 12rem;
+}
+body .projects #frontend {
+  margin-left: 14rem;
+}
+body .projects #frontend1 {
+  margin-left: 11.5rem;
+}
+body .projects li {
+  margin-left: 15rem;
+  display: inline-flex;
+}
+body #lightgray {
+  background: lightgray;
+}
+body .contact {
+  font-family: 'Caveat', cursive;
+  margin-top: 5rem;
+  font-size: 20px;
+}
+body .contact li {
+  margin-top: 1rem;
+  list-style: none;
+}
+body footer {
+  margin-top: 5rem;
+  text-align: center;
+}
